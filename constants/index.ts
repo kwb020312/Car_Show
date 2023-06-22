@@ -55,6 +55,34 @@ export const yearsOfProduction = [
   { title: "2023", value: "2023" },
 ];
 
+export const apiKeyKo: any = {
+  model: "모델",
+  make: "제조사",
+  city_mpg: "도시 연비",
+  highway_mpg: "고속도로 연비",
+  combination_mpg: "총합 연비",
+  cylinders: "실린더 수",
+  transmission: "변속기",
+  year: "출고 년도",
+  drive: "구동 방식",
+  fuel_type: "주유",
+  limit: "차량 수",
+  class: "특이 사항",
+  displacement: "배기량",
+};
+
+export const apiValueKo: any = {
+  fwd: "전륜 구동(Front)",
+  rwd: "후륜 구동(Back)",
+  awd: "전륜 구동(All)",
+  "4wd": "4륜 구동(Four)",
+  manual: "수동",
+  automatic: "자동",
+  gas: "가스",
+  diesel: "디젤",
+  electricity: "전기",
+};
+
 export const fuels = [
   {
     title: "Fuel",
